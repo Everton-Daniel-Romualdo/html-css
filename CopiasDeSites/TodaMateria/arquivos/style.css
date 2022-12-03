@@ -1,0 +1,50 @@
+/*Cabeçalho*/
+
+body{
+    margin: 0px;
+}
+
+header{
+    height: 120px;
+    background-color: rgb(49, 49, 117);
+    width: 100%;
+    outline: 0px;
+   background-image: linear-gradient(180deg,rgb(206, 106, 164), purple);
+    padding-top: 5px;
+    border: none;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+}
+
+nav > a{
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    outline: 0px;
+    color: black;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: yellow;
+   border-top-left-radius: 10px;
+}
+
+#TituloPrincipal{
+    color: yellow;
+    text-align: center;
+
+}
+
+#SubPrincipalParagrafo{
+    color: yellow;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/*conteudo*/
