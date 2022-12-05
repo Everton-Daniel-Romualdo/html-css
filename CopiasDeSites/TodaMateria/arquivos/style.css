@@ -1,6 +1,7 @@
 /*Cabeçalho*/
 
 body{
+    background-color: whitesmoke;
     margin: 0px;
 }
 
@@ -17,7 +18,9 @@ header{
 nav{
     text-align: center;
     width: 100%;
-    padding: 10px;
+    outline: 0px;
+    /*o padding completo estava bugando a tela adicionando uma barra de rolagem, coloquei apenas o padding em baixo*/
+    padding-bottom: 10px;
     background-color: purple;
 }
 
@@ -48,3 +51,77 @@ nav > a:hover{
 }
 
 /*conteudo*/
+
+/*
+
+    MODIFICAÇÕES E AJUSTES
+
+    *ajustei os titulos e paragrafos
+    *ajustei a largura da tela de leitura 
+    *fiz a identação dos paragrafose títulos
+    *ajustei as margens do footer
+    *ajustei as margins da div para não colarem no article
+    *ajustei o espaçamento das listas
+    *footer ajustado, porem, os links das redes sociais estão muitos espaçados entre si. conserte.
+
+*/
+
+article{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    
+    
+}
+
+article > div > h2,h1{
+    text-indent: 20px;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6{
+    max-width: 750px;
+    margin: auto;
+}
+
+div > p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: large;
+}
+
+ul > li{
+    padding-top: 10px;
+}
+
+/*Configurando o footer*/
+
+footer{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer > ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+footer > ul > li    {
+ margin: auto;  
+
+}
+
+footer > ul > li > a{
+    text-decoration: none;
+}
+
+#nomeAutor{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+
