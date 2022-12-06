@@ -63,14 +63,15 @@ nav > a:hover{
     *ajustei as margins da div para não colarem no article
     *ajustei o espaçamento das listas
     *footer ajustado, porem, os links das redes sociais estão muitos espaçados entre si. conserte.
-
+    *adicionei um box shadow no article
 */
 
 article{
     max-width: 800px;
     margin: auto;
+    padding: 0px 10px;
     background-color: white;
-    
+    box-shadow: -1px 1px 7px black;
     
 }
 
@@ -81,6 +82,7 @@ article > div > h2,h1{
 #div1, #div2, #div3, #div4, #div5, #div6{
     max-width: 750px;
     margin: auto;
+    
 }
 
 div > p{
@@ -122,6 +124,31 @@ footer > ul > li > a{
     color: white;
     text-align: center;
     padding: 3px;
+}
+
+/*configurando as imagens*/
+
+/*
+imagens centralizadas e com o tamanho maxímo definido
+*/
+
+#div4 > img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+#div5 > img{
+   max-width: 400px;
+   display: block;
+   margin:  auto;
+
+}
+
+#div6 > img{
+    display: block;
+    max-width: 400px;
+    margin: auto;
 }
 
 
