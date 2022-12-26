@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr:hover{
+    background-color: aquamarine;
+    
+}
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+th{
+    height: 30px;
+}
+td{
+    vertical-align: bottom;
+    height: 30px;
+    
+}
+.caixa{
+    width: 50%;
+    overflow-x: auto;
+    margin: auto;
+}
+
